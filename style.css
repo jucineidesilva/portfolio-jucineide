@@ -1,0 +1,60 @@
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho e Menu */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #666;
+}
+.foto-perfil {
+    width: 150px;           /* Define a largura (pode mudar para 100px se quiser menor) */
+    height: 150px;          /* Mantém a altura igual à largura */
+    border-radius: 50%;      /* Deixa a foto redonda */
+    object-fit: cover;      /* Ajusta a imagem dentro do círculo sem esticar */
+    display: block;         /* Permite o uso do margin auto */
+    margin: 20px auto;      /* Centraliza a foto e dá espaço em cima e embaixo */
+    border: 3px solid #333; /* Adiciona uma moldura escura elegante */
+}
