@@ -49,12 +49,3 @@ footer {
     margin-top: 40px;
     color: #666;
 }
-.foto-perfil {
-    width: 150px;           /* Define a largura (pode mudar para 100px se quiser menor) */
-    height: 150px;          /* Mantém a altura igual à largura */
-    border-radius: 50%;      /* Deixa a foto redonda */
-    object-fit: cover;      /* Ajusta a imagem dentro do círculo sem esticar */
-    display: block;         /* Permite o uso do margin auto */
-    margin: 20px auto;      /* Centraliza a foto e dá espaço em cima e embaixo */
-    border: 3px solid #333; /* Adiciona uma moldura escura elegante */
-}

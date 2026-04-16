@@ -1,13 +1,43 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>meu-portfolio-react</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Jucineide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Meus Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+           <img src="foto.jpeg" alt="Foto de Jucineide" class="foto-perfil">
+            <p>Olá! 👋
+Meu nome é Jucineide Silva, estou cursando Sistemas para Internet e este é o meu primeiro portfólio profissional.
+Aqui apresento alguns projetos desenvolvidos durante meus estudos, demonstrando minhas habilidades e minha evolução na área de tecnologia.
+Seja bem-vindo(a)! 🚀.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div id="container-projetos"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Jucineide silva
+             | Desenvolvedora Web em formação</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
